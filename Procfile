@@ -1,1 +1,1 @@
-worker: python3 cathy.py
+worker: python cathy.py
