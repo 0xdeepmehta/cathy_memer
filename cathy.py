@@ -10,7 +10,7 @@ import aiohttp
 from io import BytesIO
 
 
-TOKEN = "ODE2NzIyNjYzMTI4NTYzNzUz.YD_GQA.Np0WNFiyo4n76Eg3R-9Dxt6Wg8o"
+TOKEN = os.environ.get("BOT_TOKEN")
 
 WORDLIST = {
     'hi-hello': [
