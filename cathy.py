@@ -64,7 +64,7 @@ async def on_message(message):
     if msg.split(' ')[0] in WORDLIST['hi-hello']:
         msg = msg.split(' ')[0]
         for i in WORDLIST['hi-hello']:
-            if i in msg:
+            if i in msg and "cathy" in msg:
                 await message.channel.send(f"Suno {username}, ye hi, hello thik hai lekin **Memer** ham hai.")
                 break
 
